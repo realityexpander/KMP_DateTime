@@ -1,9 +1,14 @@
 This is a Kotlin Multiplatform project targeting Android, iOS, Desktop demonstrating the KotlinX DateTime library.
 
+[<img src="https://github.com/user-attachments/assets/4667560f-6015-4e2e-bfe6-3b604c1d79b3" width=300>]()
+[<img src="https://github.com/user-attachments/assets/0e67ffae-4968-4c56-8156-f830855c8da7" width=200>]()
+[<img src="https://github.com/user-attachments/assets/8806743c-2ab5-4bc8-8215-de9dc9d1ef4f" width=300>]()
+
 * To run iOS & Android app, use the Run Configurations menu in Android Studio
   - `composeApp` for Android - ONLY FROM ANDROID STUDIO!
   - `iosApp` for iOS - ONLY FROM ANDROID STUDIO!
 * To run desktop, run `KMP-DateTime [run]` - ONLY FROM JetBrains IntelliJ IDE!
+
 
 Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
 
