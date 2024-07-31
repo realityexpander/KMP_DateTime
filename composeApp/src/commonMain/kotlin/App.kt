@@ -27,6 +27,8 @@ data class City(
 @Preview
 fun App() {
     MaterialTheme {
+
+        // Define the cities and their time zones
         val cities = remember {
             listOf(
                 City("Mexico City", TimeZone.of("America/Mexico_City")),
@@ -37,11 +39,15 @@ fun App() {
                 City("Sydney", TimeZone.of("Australia/Sydney")),
             )
         }
+
+        // Define the current time in each city
         var cityTimes by remember {
             mutableStateOf(
                 listOf<Pair<City, LocalDateTime>>()
             )
         }
+
+        // Update the time every second
         LaunchedEffect(true) {
             while(true) {
                 cityTimes = cities.map {
