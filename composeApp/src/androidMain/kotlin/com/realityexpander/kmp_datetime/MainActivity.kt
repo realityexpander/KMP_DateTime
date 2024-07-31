@@ -1,4 +1,4 @@
-package com.realityexpander.cmp_datetime
+package com.realityexpander.kmp_datetime
 
 import App
 import android.os.Bundle
