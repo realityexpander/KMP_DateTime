@@ -71,12 +71,15 @@ fun App() {
                     horizontalArrangement = Arrangement.SpaceBetween,
                     verticalAlignment = Alignment.CenterVertically
                 ) {
+                    // Display the city name
                     Text(
                         text = city.name,
                         fontSize = 30.sp,
                         fontWeight = FontWeight.Bold,
                         color = Color.White
                     )
+
+                    // Display the time
                     Column(
                         horizontalAlignment = Alignment.End
                     ) {
